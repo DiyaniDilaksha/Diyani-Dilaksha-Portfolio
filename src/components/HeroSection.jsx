@@ -15,14 +15,14 @@ const Hero = () => {
           style={{ maxWidth: "450px" }}
         />
       </div>
-
-      <div className="hero-text w-100 w-md-75 w-lg-50 px-3 px-lg-0">
+ <div className="w-50 w-md-75 w-lg-100 px-3 px-lg-0">
+      {/* <div className="w-100 w-md-75 w-lg-50 px-3 px-lg-0"> */}
         <h2 className="custom-name">I'm Diyani Munasinghe,</h2>
         <h2 className="fw-bold mb-4">Software Engineer based in Sri Lanka.</h2>
 
         <p className="mb-5 fs-5">
           Results-driven, innovative Software Engineer with over 3 years of
-          experience in React.js, Spring Boot, Java, MySQL, and Angular. <br />
+          experience in React.js, Spring Boot, Java, MySQL, and Angular.
           Skilled in performance optimization, problem-solving, and delivering
           efficient, reliable software that drives organizational success.
         </p>
