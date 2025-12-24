@@ -99,7 +99,7 @@ const Contact = () => {
                 ></textarea>
               </div>
 
-              <button type="submit" className="btn connect-btn px-4">
+              <button type="submit" className="btn connect-btn px-4 fs-5">
                 Submit Now
               </button>
             </form>

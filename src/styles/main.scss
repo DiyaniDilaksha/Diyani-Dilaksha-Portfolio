@@ -16,6 +16,14 @@ $bg-secondary: #161513;
   .connect-btn:hover {
     color: $text-white;
   }
+
+  .navbar-toggler {
+    border-color: $text-white;
+  }
+
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
 }
 .hero {
   .custom-name {
@@ -85,8 +93,8 @@ $bg-secondary: #161513;
     border-radius: 8px;
   }
 }
-.contact{
-  h2{
+.contact {
+  h2 {
     font-weight: 700;
     font-size: 40px;
     background: linear-gradient(267deg, #3796d6 0.36%, #4c23e1 102.06%);
@@ -102,11 +110,10 @@ $bg-secondary: #161513;
     border: none;
     padding: 15px 15px;
   }
-    .connect-btn:hover {
+  .connect-btn:hover {
     color: $text-white;
   }
   .icon-color {
-  fill: #3796d6; /* custom color */
-}
-
+    fill: #3796d6; /* custom color */
+  }
 }

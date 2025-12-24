@@ -1,11 +1,17 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "/logo.png";
 
 const Navbar = () => {
+  
+    const closeNavbar = () => {
+    const navbar = document.getElementById("navbarNav");
+    if (navbar.classList.contains("show")) {
+      navbar.classList.remove("show");
+    }
+  };
   return (
     <nav className="navbar navbar-expand-lg shadow-sm fixed-top">
       <div className="container d-flex justify-content-between align-items-center">
-        <a className="navbar-brand" href="#hero">
+        <a className="navbar-brand" href="#hero" onClick={closeNavbar}>
           <img
             src={logo}
             height="50"
@@ -29,31 +35,31 @@ const Navbar = () => {
         >
           <ul className="navbar-nav gap-3 text-center">
             <li className="nav-item">
-              <a className="nav-link text-white fs-5" href="#hero">
+              <a className="nav-link text-white fs-5" href="#hero" onClick={closeNavbar}>
                 Home
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link text-white fs-5" href="#about">
+              <a className="nav-link text-white fs-5" href="#about" onClick={closeNavbar}>
                 About me
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link text-white fs-5" href="#services">
+              <a className="nav-link text-white fs-5" href="#services" onClick={closeNavbar}>
                 Services
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link text-white fs-5" href="#portfolio">
+              <a className="nav-link text-white fs-5" href="#portfolio" onClick={closeNavbar}>
                 Portfolio
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link text-white fs-5" href="#contact">
+              <a className="nav-link text-white fs-5" href="#contact" onClick={closeNavbar}>
                 Contact
               </a>
             </li>
