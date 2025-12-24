@@ -3,10 +3,10 @@ import profile_img from "../assets/images/profile_img.webp";
 const Hero = () => {
   return (
     <section
-      id="hero"
-      className="hero d-flex flex-column align-items-center text-center px-3 px-md-5 pb-5"
-      style={{ minHeight: "100vh", paddingTop: "120px" }}
-    >
+  id="hero"
+  className="hero d-flex flex-column align-items-center text-center px-3 px-md-5"
+  style={{ paddingTop: "120px", paddingBottom: "60px" }} // Controlled padding
+>
       <div className="hero-image mb-5">
         <img
           src={profile_img}
