@@ -21,23 +21,25 @@ const Hero = () => {
         />
       </div>
 
-      <div className="container-fluid w-100 w-lg-75 px-2">
-        <h2 className="custom-name display-6 fw-bold">I'm Diyani Munasinghe,</h2>
-        <h2 className="h3 fw-semibold mb-3">Software Engineer based in Sri Lanka.</h2>
+     {/* Use 'container' to auto-manage margins and 'w-100' to ensure it uses the space */}
+<div className="container w-100 px-3">
+  <h2 className="custom-name">I'm Diyani Munasinghe,</h2>
+  <h2 className="fw-bold mb-4">Software Engineer based in Sri Lanka.</h2>
 
-        <p className="mb-5 fs-5 fs-md-5 text-muted mx-auto" style={{ maxWidth: "800px" }}>
-          Results-driven, innovative Software Engineer with over 3 years of
-          experience in React.js, Spring Boot, Java, MySQL, and Angular. Skilled
-          in performance optimization, problem-solving, and delivering
-          efficient, reliable software that drives organizational success.
-        </p>
+  {/* We limit the width of the paragraph specifically so it doesn't get too long to read */}
+  <p className="mb-5 fs-5 mx-auto" style={{ maxWidth: "900px" }}>
+    Results-driven, innovative Software Engineer with over 3 years of
+    experience in React.js, Spring Boot, Java, MySQL, and Angular. Skilled
+    in performance optimization, problem-solving, and delivering
+    efficient, reliable software that drives organizational success.
+  </p>
 
-        <div>
-          <a className="btn connect-btn px-4 py-2 fs-5 shadow-sm" href="#contact">
-            Connect with me
-          </a>
-        </div>
-      </div>
+  <div>
+    <a className="btn connect-btn px-4 fs-5" href="#contact">
+      Connect with me
+    </a>
+  </div>
+</div>
     </section>
   );
 };
