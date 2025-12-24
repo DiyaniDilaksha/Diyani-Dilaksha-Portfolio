@@ -2,7 +2,6 @@ import emailIcon from "../assets/icons/email.png";
 import phoneIcon from "../assets/icons/phone.png";
 import locationIcon from "../assets/icons/location.png";
 
-
 const Contact = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -31,7 +30,7 @@ const Contact = () => {
     <section id="contact" className="contact py-5">
       <div className="container">
         <div className="text-center mb-5">
-          <h1 className="mb-3 mt-5">Get In Touch</h1>
+          <h1 className="mt-5">Get In Touch</h1>
         </div>
 
         <div className="row g-4 g-lg-5 align-items-start">
@@ -45,17 +44,30 @@ const Contact = () => {
 
             <div className="d-flex flex-column gap-2 gap-md-2">
               <p className="fs-5 mt-4 mb-2">
-                <img src={emailIcon} alt="email" className="me-2 icon-color" style={{ width: "40px", height: "40px" }} />
+                <img
+                  src={emailIcon}
+                  alt="email"
+                  className="me-2 icon-color"
+                  style={{ width: "40px", height: "40px" }}
+                />
                 diyanidilaksha@gmail.com
               </p>
               <p className="fs-5 mb-2">
-                <img src={phoneIcon} alt="email" className="me-2 icon-color" style={{ width: "40px", height: "40px" }} />
-
+                <img
+                  src={phoneIcon}
+                  alt="email"
+                  className="me-2 icon-color"
+                  style={{ width: "40px", height: "40px" }}
+                />
                 0710480868
               </p>
               <p className="fs-5 mb-2">
-                <img src={locationIcon} alt="email" className="me-2 icon-color" style={{ width: "40px", height: "40px" }} />
-
+                <img
+                  src={locationIcon}
+                  alt="email"
+                  className="me-2 icon-color"
+                  style={{ width: "40px", height: "40px" }}
+                />
                 Colombo, Sri Lanka
               </p>
             </div>
