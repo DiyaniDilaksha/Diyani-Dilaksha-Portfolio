@@ -7,7 +7,7 @@ const Contact = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+    formData.append("access_key", "8588b62f-ae0e-4129-812d-22c903d09d1a");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
